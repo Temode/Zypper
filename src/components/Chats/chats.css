@@ -1,0 +1,98 @@
+.ChatContainer {
+    max-width: 450px;
+    background-color: white;
+    flex: 1;
+}
+
+.ChatContainer .my_profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+    gap: 1em;
+
+}
+
+.profile_name {
+    flex: 2;
+}
+
+.profile_img {
+    flex: 1;
+}
+
+.profile_img {
+    max-width: 50px;
+    object-fit: cover;
+    border: solid 3px ;
+    border-radius: 50%;
+    padding: .1em;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.List_Contacts .className-title{
+    padding-left: 1em;
+}
+
+.List_Contacts input.search{
+    background-color: #EDEDED;
+    margin-left: 1.4em;
+    width: 350px;
+    height: 40px;
+    border-radius: 1.8em;
+    padding: 2em;
+}
+
+.List_Contacts .List {
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    max-height: 500px;
+    overflow-y: auto;
+    scrollbar-width: 2px;
+    scroll-behavior: smooth;
+}
+
+.List_Contacts .List .people1{
+    display: flex;
+    gap:1em;
+    border-bottom: solid 1px #00000017;
+    padding: 10px;
+    padding-bottom: .3em;
+    border-radius: 10px;
+
+}
+
+.List_Contacts .List .people1:hover {
+    background-color: rgba(131, 131, 131, 0.318);
+    cursor: pointer;
+}
+
+.List_Contacts .List .people1 .items{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    justify-content: center;
+    align-items:end;
+    width: 100%;
+}
+
+.List_Contacts .List .people1 .items .xfois {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ff36368f;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    font-size: small;
+}
